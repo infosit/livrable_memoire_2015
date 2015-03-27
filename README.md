@@ -3,5 +3,5 @@ Abdellah BENBOUCHTA: Consultant et Chef de projet au sein de la société INFOSI
 [infosit.ma](https://www.infosit.ma)    
 Fatma MANLAYKHAF: étudiante stagaire...   
 Abdellatif KARROUM:étudiante stagaire...  
-Said MEHL 
+Said MEHL    
 Ait MLOUK
