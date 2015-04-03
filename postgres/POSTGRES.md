@@ -1,1 +1,3 @@
-# Postgres
+# Postgres    
+
+autoriser l'accès distant?
