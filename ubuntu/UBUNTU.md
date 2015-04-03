@@ -2,9 +2,9 @@
 
 autoriser root à de conneter en ssh:    
 Edit /etc/ssh/sshd_config   
-# Authentication:   
+' # Authentication:   
 LoginGraceTime 120    
-#PermitRootLogin without-password   
+' #PermitRootLogin without-password   
 PermitRootLogin yes   
 StrictModes yes   
 service ssh restart   
