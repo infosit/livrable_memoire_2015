@@ -5,7 +5,7 @@ wkhtmltopdf -V
 
 Commande pour vérifier que wkhtmltopdf fonctionne:	
 wkhtmltopdf http://www.odoo.com test-odoo.pdf 	
--------------
+
 +apres pls recherches on a constaté qu'il faut Installer la derniere version de wkhtmltopdf.	
 	+ attention :	
 	+ Il faut choisir la version adequate de votre distribution linux (ubuntu ou debian...)	
