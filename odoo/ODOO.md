@@ -6,7 +6,6 @@ ali
 
 #SIFA: Droit d'acces:
 
+Module odoo backup auto su
+http://www.odoo.yenthevg.com/automated-backups-in-odoo/
 
-##### Installation
-### Installation
-## Installation 
