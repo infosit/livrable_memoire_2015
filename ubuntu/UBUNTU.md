@@ -8,3 +8,6 @@ LoginGraceTime 120
 PermitRootLogin yes   
 StrictModes yes   
 service ssh restart   
+
+REF:  http://www.ehowstuff.com/how-to-allow-root-to-use-ssh-on-ubuntu-14-04   
+
