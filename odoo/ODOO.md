@@ -1,8 +1,8 @@
 # Odoo
 
-###P rblème entete INFOSIT et 2b-groupe:  
+Prblème entete INFOSIT et 2b-groupe:  
 
-### SIFA: Droit d'acces:  
+SIFA: Droit d'acces?:  
 
 Module odoo backup auto:  
 http://www.odoo.yenthevg.com/automated-backups-in-odoo/ 
