@@ -1,8 +1,8 @@
 # Ubuntu
 
-## Fixer IP serveur local?:
+#### Comment fixer IP serveur local?:
 
-autoriser root à de conneter en ssh:    
+#### Comment autoriser root à se conneter en ssh:    
 Edit /etc/ssh/sshd_config   
 ' # Authentication:   
 LoginGraceTime 120    
