@@ -1,6 +1,6 @@
 # Ubuntu
 
-Fixer IP serveur local?
+## Fixer IP serveur local?
 
 autoriser root à de conneter en ssh:    
 Edit /etc/ssh/sshd_config   
