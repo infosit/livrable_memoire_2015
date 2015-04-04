@@ -1,6 +1,5 @@
 # Odoo
-server/web/database/manager
---
+server/web/database/manager      
    
 SIFA: Droit d'acces?:  
 
