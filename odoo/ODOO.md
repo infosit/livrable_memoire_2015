@@ -1,4 +1,5 @@
 # Odoo
+server/web/database/manager
 
 Prblème entete INFOSIT et 2b-groupe: voir fichier wkhtmltopdf
 --------------------------------------------------    
