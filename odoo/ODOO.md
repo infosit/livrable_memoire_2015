@@ -1,5 +1,6 @@
 # Odoo
 server/web/database/manager      
+server/web/database/selector
    
 SIFA: Droit d'acces?:  
 
