@@ -1,8 +1,7 @@
 # Odoo
 server/web/database/manager
 
-Prblème entete INFOSIT et 2b-groupe: voir fichier wkhtmltopdf
---------------------------------------------------    
+   
 SIFA: Droit d'acces?:  
 
 Module odoo backup auto:  
