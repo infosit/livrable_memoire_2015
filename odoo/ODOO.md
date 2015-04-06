@@ -2,16 +2,14 @@
 server/web/database/manager      
 server/web/database/selector
    
-SIFA: Droit d'acces?:  
+## SIFA: Droit d'acces?:  
 
-Module odoo backup auto:  
+## Module odoo backup auto:  
 http://www.odoo.yenthevg.com/automated-backups-in-odoo/ 
 
-vue html d'un report:  
-http://localhost:8089/report/html/sifa.report_declaration1/70 
 
 
-#Enlever la barre  "your Odoo is not supported ..."
+## Enlever la barre  "your Odoo is not supported ..."
 - Récupérer le module oerp_no_phoning_home 
 git clone https://bitbucket.org/BizzAppDev/oerp_no_phoning_home.git
 
@@ -22,7 +20,7 @@ git clone https://bitbucket.org/BizzAppDev/oerp_no_phoning_home.git
 source : http://lolierp.blogspot.fr/2015/01/odoo-8-bloquer-le-message-your-odoo-is.html
 
 
-La sollution de  “ field larger than field limit (131072). “
+## La sollution de  “ field larger than field limit (131072). “
 Editer le medel /opt/odoo/odoo-server/addons/base_import/models.py et ajouter les lignes suivantes au debut du fichier ;
 
 import sys
