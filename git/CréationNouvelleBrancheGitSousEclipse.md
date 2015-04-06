@@ -1,6 +1,6 @@
-### Créer une nouvelle branche Git sous eclipse:
+# Créer une nouvelle branche Git sous eclipse:
 ## ouvrir le terminal:
-# les commandes:
+### les commandes:
 1) cd /chemin_de_module
 2) git status
 3) git add . (. signifie all(tous les fichiers modifiers)
