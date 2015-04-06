@@ -314,3 +314,6 @@ copier le fichier dans le lien /usr/share/dia/python
 dans dia 
 boite de dialogue -> python console
 tappez    import codegen_openerp.py
+
+# Vue html rapport 
+http://localhost:8089/report/html/sifa.report_declaration1/70
