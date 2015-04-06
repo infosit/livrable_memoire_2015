@@ -37,7 +37,8 @@ while decrement:
     except OverflowError:
         maxInt = int(maxInt/10)
         decrement = True
-Installer DIA sur ubuntu
+        
+## Installer DIA sur ubuntu
 
 Dans logitheque chercher DIA et installer
 ajouter codegen_openerp.py dans DIA qui nous permet de exporter les projets openerp
@@ -50,5 +51,5 @@ dans dia
 boite de dialogue -> python console
 tappez    import codegen_openerp.py
 
-# Vue html rapport 
+## Vue html rapport 
 http://localhost:8089/report/html/sifa.report_declaration1/70
