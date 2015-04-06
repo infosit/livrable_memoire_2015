@@ -12,4 +12,4 @@ apt-get update
 ----------------------------------------  
 ### mv /opt/odoo/odoo /opt/odoo/odoo8=> renommer odoo vers odoo8  
 ### mv /opt/odoo/odoo8 /opt => deplacer odoo8 vers /opt   
-### rm -r odoo => supprimer un repertoire   
+### rm -r odoo => supprimer un repertoire    
