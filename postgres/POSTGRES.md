@@ -134,9 +134,34 @@ postgres#@serveur:$  createdb -O openerp  nouvelle_base
 postgres#@serveur:$pg_restore -d nouvelle_base nom_sauvegarde_base.dump
 
 FIN.
-### PGadmin3 
-PGadmin3 est un Outil équivalent de SQLdevelopper pour postgresql 
-On l’installe en tapant la commade : sudo apt-get install pgadmin3
+### PGadmin3   
+PGadmin3 est un Outil équivalent de SQLdevelopper pour postgresql   
+On l’installe en tapant la commade : sudo apt-get install pgadmin3  
+###  créer un fichier CSV  
+Pour créer un fichier CSV des personnes, liées aux sociétés, nous utiliserons la commande SQL suivante dans PSQL:  
+  copy (select 'person_'||id as "External ID",person_name as "Name",'False' as "Is a Company",'company_'||company_id as "Related Company/External ID" from persons) TO '/tmp/person.csv' with CSV  
+
+
+### To set the default password:
+Run the psql command from the postgres user account:
+sudo -u postgres psql postgres
+
+Set the password:
+\password postgres
+
+Enter a password.
+Close psql.
+\q
+### Requête pour exporter les données:
+copy (select * from commerial_system) TO '/home/abenbouchta/filecsv/tabi3amo9awal.csv' with CSV
+
+### Requête pour récupérer les entêtes d’une table
+select column_name, data_type, character_maximum_length
+from INFORMATION_SCHEMA.COLUMNS where table_name = 'birth_place'
+
+
+### Requête pour importer les données:
+COPY commerial_system (id,create_uid,code,create_date,name,write_uid,write_date,description) FROM '/home/abenbouchta/filecsv/tabi3amo9awal.csv' WITH csv
 
 
 
