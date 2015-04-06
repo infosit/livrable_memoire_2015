@@ -150,3 +150,8 @@ mylibrary_view.xml :
 
     </data>
 </openerp>
+
+
+'name': 'mylibrary', 
+    'version': '0.1', 
+    'category': 'Generic Modules/Others', 
