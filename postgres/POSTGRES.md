@@ -134,7 +134,10 @@ postgres#@serveur:$  createdb -O openerp  nouvelle_base
 postgres#@serveur:$pg_restore -d nouvelle_base nom_sauvegarde_base.dump
 
 FIN.
-    
+### PGadmin3 
+PGadmin3 est un Outil équivalent de SQLdevelopper pour postgresql 
+On l’installe en tapant la commade : sudo apt-get install pgadmin3
+
 
 
 
