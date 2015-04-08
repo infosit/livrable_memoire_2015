@@ -3,7 +3,7 @@
 #### Comment fixer IP serveur local?:
 
 #### Comment autoriser root à se conneter en ssh:    
-gedit /etc/ssh/sshd_config   
+nano /etc/ssh/sshd_config   
 ' # Authentication:   
 LoginGraceTime 120    
 ' #PermitRootLogin without-password   
