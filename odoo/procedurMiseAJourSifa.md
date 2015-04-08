@@ -5,4 +5,11 @@
 - rm -R sifa_reports
 - mkdir sifa
 - cd sifa
+- (s'assurer que master est à jour)
 - git clone https://github.com/abbenbouchta/sifa.git --depth 1 --branch master --single-branch . 
+- cd ..
+- chmod -R 775 sifa
+- chown -R odoo:odoo sifa
+- ls -l
+- service odoo-server restart
+- meme chose pour sifa_reports
