@@ -19,6 +19,15 @@ Faire un teste:
 sudo su - openerp -s /bin/bash  
 wkhtmltopdf  http://www.y-note.cm y-note.pdf
 
+NON TERMINER:		
+ERREUR ODOO:		
+
+Report (PDF)		
+
+Wkhtmltopdf failed (error code: -11). Message: QSslSocket: cannot resolve SSLv2_client_method		
+QSslSocket: cannot resolve SSLv2_server_method		
+
+
 
 
 Commande pour vérifier la version :
