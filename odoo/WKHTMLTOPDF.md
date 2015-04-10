@@ -50,11 +50,11 @@ wkhtmltopdf http://www.odoo.com test-odoo.pdf
 	cp /usr/local/bin/wkhtmltoimage /usr/bin 
 	 
 	
-	+ * installation Wkhtmltopdf sous ubuntu : 
-	 64 bits
-Wget http://downloads.sourceforge.net/project/wkhtmltopdf/0.12.2.1/wkhtmltox-0.12.2.1_linux-trusty-amd64.deb
-	 32bit
-Wget http://downloads.sourceforge.net/project/wkhtmltopdf/0.12.2.1/wkhtmltox-0.12.2.1_linux-trusty-i386.deb
+	+ * installation Wkhtmltopdf sous ubuntu :    
+	 64 bits   
+Wget http://downloads.sourceforge.net/project/wkhtmltopdf/0.12.2.1/wkhtmltox-0.12.2.1_linux-trusty-amd64.deb   
+	 32bit   
+Wget http://downloads.sourceforge.net/project/wkhtmltopdf/0.12.2.1/wkhtmltox-0.12.2.1_linux-trusty-i386.deb   
 	
 	dpkg -i wkhtmltox-0.12.1_linux-trusty-amd64.deb
 	cp /usr/local/bin/wkhtmltopdf /usr/bin
