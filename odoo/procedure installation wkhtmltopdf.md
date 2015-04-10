@@ -11,7 +11,7 @@
 4)	cp /usr/local/bin/wkhtmltoimage /usr/bin   
  pour tester le fonctionnement de wkhtmltopdf utiliser la commande suivante:     
 5) wkhtmltopdf www.google.com test.pdf  
-	 - 2/ sous debian 32 bits:    
+	  2/ sous debian 32 bits:    
 	 ####	Tapez les commandes suivantes:  
 0)  cd /opt  	 
 1) Wget http://downloads.sourceforge.net/project/wkhtmltopdf/0.12.2.1/wkhtmltox-0.12.2.1_linux-wheezy-i386.deb    
