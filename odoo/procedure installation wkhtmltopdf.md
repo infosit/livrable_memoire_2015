@@ -4,7 +4,7 @@
 	## I- installation Wkhtmltopdf sous debian:   
 	 ### - 1/ sous debian 64 bits:    
 	#### Tapez les commandes suivantes:  
-0)  cd /opt	
+0)  cd /opt  	
 1)	Wget http://downloads.sourceforge.net/project/wkhtmltopdf/0.12.2.1/wkhtmltox-0.12.2.1_linux-wheezy-amd64.deb  
 2)  dpkg -i wkhtmltox-0.12.2.1_linux-wheezy-amd64.deb 
 3) 	cp /usr/local/bin/wkhtmltopdf /usr/bin  
@@ -13,7 +13,7 @@
 5) wkhtmltopdf www.google.com test.pdf  
 	 - 2/ sous debian 32 bits:    
 	 ####	Tapez les commandes suivantes:  
-0)  cd /opt	 
+0)  cd /opt  	 
 1) Wget http://downloads.sourceforge.net/project/wkhtmltopdf/0.12.2.1/wkhtmltox-0.12.2.1_linux-wheezy-i386.deb    
 2)  dpkg -i wkhtmltox-0.12.2.1_linux-wheezy-i386.deb    
 3) 	cp /usr/local/bin/wkhtmltopdf /usr/bin    
@@ -24,7 +24,7 @@
 	## II- installation Wkhtmltopdf sous ubuntu :     
 	### - 1/ sous ubuntu 64 bits:    
 	 ####	Tapez les commandes suivantes:   
-0)  cd /opt	 
+0)  cd /opt  	 
 1)  Wget http://downloads.sourceforge.net/project/wkhtmltopdf/0.12.2.1/wkhtmltox-0.12.2.1_linux-trusty-amd64.deb  
 2)  dpkg -i wkhtmltox-0.12.2.1_linux-trusty-amd64.deb    
 3) 	cp /usr/local/bin/wkhtmltopdf /usr/bin    
@@ -33,7 +33,7 @@
 5) wkhtmltopdf www.google.com test.pdf     
 		### - 2/ sous ubuntu 32bits:     
 		 ####	Tapez les commandes suivantes:  
-0)  cd /opt		 
+0)  cd /opt  		 
 1) Wget http://downloads.sourceforge.net/project/wkhtmltopdf/0.12.2.1/wkhtmltox-0.12.2.1_linux-trusty-i386.deb     
 2) dpkg -i wkhtmltox-0.12.2.1_linux-trusty-i386.deb  
 3) cp /usr/local/bin/wkhtmltopdf /usr/bin  
