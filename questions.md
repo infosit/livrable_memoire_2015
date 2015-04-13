@@ -1,9 +1,9 @@
 ### Questions:    
 - Comment changer le port defaut 8069 de odoo sur ubuntu?
-- Comment changer le port defaut 8069 de odoo sur eclipse?:
-1- Clic droite sur openerp-server.py  
-2- run as / run configuration/
-3- ajouter --xmlrpc-port=8071 sur la case programme arguments du volet (x)= argument
+- Comment changer le port defaut 8069 de odoo sur eclipse?:   
+1- Clic droite sur openerp-server.py    
+2- run as / run configuration/    
+3- ajouter --xmlrpc-port=8071 sur la case programme arguments du volet (x)= argument    
 
 
 - Comment configurer le port 8069 to 80 ?   
