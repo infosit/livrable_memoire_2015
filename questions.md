@@ -9,5 +9,6 @@ reboot
 - Comment resoudre le pb wkhtmltopdf?
 - Comment autoriser root à se conneter a distant en ssh?
 - Configuration localisation ubuntu
+- Comment configurer DNS? BIND
 
 
