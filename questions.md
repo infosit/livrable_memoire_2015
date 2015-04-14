@@ -16,5 +16,6 @@ reboot
 - Comment autoriser root à se conneter a distant en ssh?
 - Configuration localisation ubuntu
 - Comment configurer DNS? BIND
+- comprendre openupgrade : migration
 
 
