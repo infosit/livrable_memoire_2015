@@ -19,7 +19,11 @@ reboot
 Ce est un problème commun si vous vous connectez à distance, la solution est de ne pas transmettre vos paramètres régionaux.  
 Editer le fichier /etc/ssh/ssh_config :    
 nano /etc/ssh/ssh_config   
-et commenter la ligne: SendEnv LANG LC_*.  
+et commenter la ligne: SendEnv LANG LC_*. 
+sudo pg_createcluster 9.3 main --start  
+/etc/init.d/postgres restart  
+reference: http://askubuntu.com/questions/463594/starting-postgresql-server-postgres-user-unknown
+
 - Comment configurer DNS? BIND
 - comprendre openupgrade : migration
 
