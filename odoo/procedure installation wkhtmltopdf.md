@@ -27,7 +27,7 @@
 0)  cd /opt  	 
 1)  Wget http://downloads.sourceforge.net/project/wkhtmltopdf/0.12.2.1/wkhtmltox-0.12.2.1_linux-trusty-amd64.deb  
 2)  dpkg -i wkhtmltox-0.12.2.1_linux-trusty-amd64.deb  
-3/ apt-get install xfonts-base xfonts-75dpi xfonts-utils libfontenc1 libxfont1 xfonts-encodings
+3) apt-get install xfonts-base xfonts-75dpi xfonts-utils libfontenc1 libxfont1 xfonts-encodings
 4) 	cp /usr/local/bin/wkhtmltopdf /usr/bin    
 5)	cp /usr/local/bin/wkhtmltoimage /usr/bin     
  pour tester le fonctionnement de wkhtmltopdf utiliser la commande suivante:       
@@ -37,7 +37,7 @@
 0)  cd /opt  		 
 1) Wget http://downloads.sourceforge.net/project/wkhtmltopdf/0.12.2.1/wkhtmltox-0.12.2.1_linux-trusty-i386.deb     
 2) dpkg -i wkhtmltox-0.12.2.1_linux-trusty-i386.deb  
-33/ apt-get install xfonts-base xfonts-75dpi xfonts-utils libfontenc1 libxfont1 xfonts-encodings
+3) apt-get install xfonts-base xfonts-75dpi xfonts-utils libfontenc1 libxfont1 xfonts-encodings    
 4) 	cp /usr/local/bin/wkhtmltopdf /usr/bin    
 5)	cp /usr/local/bin/wkhtmltoimage /usr/bin     
  pour tester le fonctionnement de wkhtmltopdf utiliser la commande suivante:       
