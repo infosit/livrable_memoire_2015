@@ -6,7 +6,9 @@
 	#### Tapez les commandes suivantes:  
 0)  cd /opt  	
 1)	wget http://downloads.sourceforge.net/project/wkhtmltopdf/0.12.2.1/wkhtmltox-0.12.2.1_linux-wheezy-amd64.deb  
-2)  dpkg -i wkhtmltox-0.12.2.1_linux-wheezy-amd64.deb		 
+2)  dpkg -i wkhtmltox-0.12.2.1_linux-wheezy-amd64.deb		
+puis installer si ne sont pas installées les dependance suivant:		
+apt-get install xfonts-base xfonts-75dpi xfonts-utils libfontenc1 libxfont1 xfonts-encodings		
 3) 	cp /usr/local/bin/wkhtmltopdf /usr/bin  
 4)	cp /usr/local/bin/wkhtmltoimage /usr/bin   
  pour tester le fonctionnement de wkhtmltopdf utiliser la commande suivante:     
@@ -28,7 +30,7 @@
 1)  wget http://downloads.sourceforge.net/project/wkhtmltopdf/0.12.2.1/wkhtmltox-0.12.2.1_linux-trusty-amd64.deb  
 2)  dpkg -i wkhtmltox-0.12.2.1_linux-trusty-amd64.deb  
 puis installer si ne sont pas installées les dependance suivant:		
-3) apt-get install xfonts-base xfonts-75dpi xfonts-utils libfontenc1 libxfont1 xfonts-encodings
+3) apt-get install xfonts-base xfonts-75dpi xfonts-utils libfontenc1 libxfont1 xfonts-encodings  
 4) 	cp /usr/local/bin/wkhtmltopdf /usr/bin    
 5)	cp /usr/local/bin/wkhtmltoimage /usr/bin     
  pour tester le fonctionnement de wkhtmltopdf utiliser la commande suivante:       
