@@ -11,6 +11,8 @@ chmod -R 775 sifa
 chown -R odoo:odoo sifa  
 ls -l  
 - service odoo-server restart  
+### Attention:    
+- Configuration/  mise a jour module sifa   
 
 - meme chose pour sifa_reports:  
 
