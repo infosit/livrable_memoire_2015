@@ -1,5 +1,5 @@
 # Procedure de mise à jour sifa et sifa_repports:
-ssh root@ip  
+ssh root@5.196.12.72  
 cd /opt/odoo/addons  
 rm -R sifa  
 mkdir sifa  
