@@ -1,7 +1,7 @@
 ## les script:      
 sifa.sh:   
 
-#!/bin/bash   
+ #!/bin/bash   
 cd /opt/odoo/addons   
 (NT: pour le serveur cam: cd /home/odoo/odoo/addons)
 rm -R sifa    
