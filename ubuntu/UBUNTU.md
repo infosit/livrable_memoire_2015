@@ -13,18 +13,20 @@ service ssh restart
 
 REF:  http://www.ehowstuff.com/how-to-allow-root-to-use-ssh-on-ubuntu-14-04   
 
-###changer dhcp par static ip ubuntu
-http://www.howtogeek.com/howto/ubuntu/change-ubuntu-server-from-dhcp-to-a-static-ip-address/
-modifier le fichier /etc/network/interfaces et ajouter les lignes suivantes
-auto eth0
-iface eth0 inet static
-        address 192.168.1.151
-        netmask 255.255.255.0
-        network 192.168.1.0
-        broadcast 192.168.1.255
-        gateway 192.168.1.1
-            dns-nameservers 212.217.0.1
-et redemarer l interface en utilisant 
+###changer dhcp par static ip ubuntu            
+http://www.howtogeek.com/howto/ubuntu/change-ubuntu-server-from-dhcp-to-a-static-ip-address/            
+modifier le fichier 
+nano /etc/network/interfaces             
+et ajouter les lignes suivantes                      
+auto eth0               
+iface eth0 inet static          
+        address 192.168.1.151           
+        netmask 255.255.255.0           
+        network 192.168.1.0             
+        broadcast 192.168.1.255         
+        gateway 192.168.1.1             
+        dns-nameservers 212.217.0.1         
+et redemarer l interface en utilisant           
 
 ###Se connecter a un serveur ubuntu distant shh ;
   ssh nomUtilisateur@IPserver
