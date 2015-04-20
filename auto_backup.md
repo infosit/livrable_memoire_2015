@@ -11,17 +11,20 @@ il faut installer d'abord dependance pysftp:
 cd /opt/odoo/addons  
 mkdir auto_backup  
 cd auto_backup  
-git clonehttps://github.com/Yenthe666/auto_backup.git --depth 1 --branch 8.0 --single-branch .  
+git clone https://github.com/Yenthe666/auto_backup.git --depth 1 --branch 8.0 --single-branch .  
 (RQ: enlever " ." s'il ya uin probleme)  
 cd ..  
-chmod -R 775 auto_backup
-chown -R odoo:odoo auto_backup 
-service odoo-server restart  
-(RQ: auto_backup contient le dossier auto_backup):
+(RQ: auto_backup contient le dossier auto_backup):  
 mv /opt/odoo/addons/auto_backup /opt/odoo/addons/auto_backup1  
 mv /opt/odoo/addons/auto_backup1/auto_backup /opt/odoo/addons/auto_backup  
-rm -R /opt/odoo/addons/auto_backup1  (supprimer auto_backup1)  
+rm -R /opt/odoo/addons/auto_backup1  (supprimer auto_backup1)
 
+cd /opt/odoo/addons 
+chmod -R 775 auto_backup  
+chown -R odoo:odoo auto_backup 
+service odoo-server restart  
+
+ 
 
 
 
