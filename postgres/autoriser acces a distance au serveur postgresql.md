@@ -2,6 +2,9 @@
 1/ changer la ligne   
 listen_addresses = 'localhost' pour qu'il soit listen_addresses = '*'  
 2/ ensiute editer le fichier /etc/postgresql/9.3/main/pg_hba.conf en ajoutant la ligne suivante a la fin host all all 192.168.1.0/24 md5  
+
+srevice postgresql restart
 apres on peut acceder au serveur via PgAdmin  
 sauvegarder une BD via PgAdmin:  
+
  
