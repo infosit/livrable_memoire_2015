@@ -22,7 +22,27 @@ rm -R /opt/odoo/addons/auto_backup1  (supprimer auto_backup1)
 cd /opt/odoo/addons 
 chmod -R 775 auto_backup  
 chown -R odoo:odoo auto_backup 
+
+sudo su - odoo -s /bin/bash
+mkdir backups
+
 service odoo-server restart  
+A-  configuration:  
+1- configuration: Installer le module Database Auto-Backup:     
+2- configuration / configuration / configure backup    
+3- creer: (il creer automatique une configuration)    
+
+B- Technical:  
+- action planifiée
+- Backup scheduler  
+- modifier  
+- Activer  
+- completer parametrage  
+
+
+
+
+
 
  
 
