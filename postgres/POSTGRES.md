@@ -1,22 +1,21 @@
 # Postgres    
 
-### Remarque: 
-
+Remarque: 
 
 - /etc/postgressql/9.1/main   postgresql.conf         : fichier de configuration 
 
-### les bases de données sont situées sur:
+les bases de données sont situées sur:
 /var/lib/postgresql/9.1/main…  (plusieurs répéroitre chaque répertoirn contier plusieurs base
 exemple fcel avec OID 58589 se trouve sur le reperoire nomé; /var/lib/postgresql/9.1/main/base/58589
 
 ========
-### Repertoir d’installation serveur 192.168.2.100 et seveur ovh;   
+ Repertoir d’installation serveur 192.168.2.100 et seveur ovh;   
 /usr/share/postgresql/9.1
 ===========
-### se logi sur postgres
+se logi sur postgres
 root@serveur:~$ su postgres
 ===========
-### Creer une base de donné:
+Creer une base de donné:
 root@serveur:~$ su - postgres
 postgres#@serveur:~$ createdb exemple
 =============
