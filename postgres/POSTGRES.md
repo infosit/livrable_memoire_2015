@@ -8,53 +8,27 @@ les bases de données sont situées sur:
 /var/lib/postgresql/9.1/main…  (plusieurs répéroitre chaque répertoirn contier plusieurs base
 exemple fcel avec OID 58589 se trouve sur le reperoire nomé; /var/lib/postgresql/9.1/main/base/58589
 
-========
  Repertoir d’installation serveur 192.168.2.100 et seveur ovh;   
 /usr/share/postgresql/9.1
-===========
+
 se logi sur postgres
 root@serveur:~$ su postgres
-===========
+
 Creer une base de donné:
 root@serveur:~$ su - postgres
 postgres#@serveur:~$ createdb exemple
-=============
-### supprimer une base de donné:
+
+supprimer une base de donné:
 postgres#@serveur:~$ dropdb exemple
-======
-### se connecter à une base de donné:
+
+se connecter à une base de donné:
 postgres#@serveur:~$ psql exempl
 exemple=#
-==========
+
 exemple=# \h          help
 exemple=# \ h CREATEUSER    help sur cette commande
-========
-### creer une table:
-exemple=# CREATE TABLE villes (
-exemple=#  nom            varchar(80),
-exemple=#  emplacement    point   (sans ,)
-exemple=#);
-===============
-### supprimer une table:
-exemple=#DROP TABLE ville;
-==========
 
-
-### Héritage:
-exemple=# CREATE TABLE villes (
-exemple=# nom        text,
-exemple=#  population real
-);
-
-exemple=# CREATE TABLE capitales (
-exemple=#  etat      char(2)
-exemple=# ) INHERITS (villes);
-==========
-### creer un groupe de base de données:
-postgres#@serveur:~$ initdb -D /var/lib/postgresql/9.1/mai,/base2/
-============
-
-### configuration du serveur:
+configuration du serveur:
 les fonctions et les parametre utiliser dans le fichier posgresql.conf
 vour lien: http://docs.postgresql.fr/9.3/runtime-config.html
 
