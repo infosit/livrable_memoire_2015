@@ -26,7 +26,11 @@ iface eth0 inet static
         broadcast 192.168.1.255         
         gateway 192.168.1.1             
         dns-nameservers 212.217.0.1         
-et redemarer l interface en utilisant           
+et redemarer l interface en utilisant : avec            
+ifdown eth0             
+ifup eth0               
+ou:             
+/etc/init.d/networking restart          (eci ne doit pas être confondu avec la commande qui suit, qui relance explicitement tous les services réseaux)                
 
 ###Se connecter a un serveur ubuntu distant shh ;
   ssh nomUtilisateur@IPserver
