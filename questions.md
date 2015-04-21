@@ -14,6 +14,16 @@ reboot
 
 - Comment resoudre le pb wkhtmltopdf?
 - Comment autoriser root à se conneter a distant en ssh?
+nano /etc/ssh/sshd_config
+' # Authentication:
+LoginGraceTime 120
+' #PermitRootLogin without-password
+PermitRootLogin yes
+StrictModes yes
+service ssh restart
+
+REF: http://www.ehowstuff.com/how-to-allow-root-to-use-ssh-on-ubuntu-14-04 
+
 - Configuration localisation ubuntu  
 1ere solution:   
 Ce est un problème commun si vous vous connectez à distance, la solution est de ne pas transmettre vos paramètres régionaux.  
