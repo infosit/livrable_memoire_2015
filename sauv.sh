@@ -3,7 +3,7 @@
 # nano /var/lib/poqtgresql/sauv.dump
 rm /var/lib/postgresql/sauv.dump
 su postgres
-cd
+cd /var/lib/postgresql
 pg_dump -Fc demo > sauv.dump
-eixt
+
 exit 0
