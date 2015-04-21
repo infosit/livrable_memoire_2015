@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 # un fichier dois d'abort exister sinon le creer avec:
 # nano /var/lib/poqtgresql/sauv.dump
 rm /var/lib/postgresql/sauv.dump
