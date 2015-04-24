@@ -1,5 +1,12 @@
 # WKHTMLTOPDF
-site web: http://wkhtmltopdf.org/downloads.html		
+   
+   
+   probleme de mise en page  :  
+allez sur configuration/technical/parametre/parametre systeme   
+modifer la cle : web.base.url et ajouter comme valeur http://127.0.0.1:8069   
+REF : https://github.com/odoo/odoo/issues/1105    
+  
+site web: http://wkhtmltopdf.org/downloads.html  	
 version 0.12.0: http://sourceforge.net/projects/wkhtmltopdf/files/archive/0.12.0		
 version 0.12.0 /32bit:http://sourceforge.net/projects/wkhtmltopdf/files/archive/0.12.0/wkhtmltox-linux-i386_0.12.0-03c001d.tar.xz/download
 version 0.12.0 /32bit: http://sourceforge.net/projects/wkhtmltopdf/files/archive/0.12.0/wkhtmltox-linux-amd64_0.12.0-03c001d.tar.xz/download 
