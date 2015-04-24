@@ -1,3 +1,10 @@
+- attention :		
+probleme de mise en page infosit.ma et 2b-groupe :
+
+allez sur configuration/technical/parametre/parametre systeme
+modifer la cle : web.base.url et ajouter comme valeur http://127.0.0.1:8069
+REF : https://github.com/odoo/odoo/issues/1105 
+
 - Apres pls recherches on a constaté qu'il faut Installer la derniere version de wkhtmltopdf.		 
 - attention :	
 	- Il faut choisir la version adequate de votre distribution linux (ubuntu ou debian...)	  
