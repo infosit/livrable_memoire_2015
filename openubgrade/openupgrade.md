@@ -18,4 +18,8 @@ python migrate.py --config="/home/abenbouchta/workspace/odoo7/openerp-server.con
 
 
 ATTENTION: 
-il faut stoper openerp-server
+il faut stoper openerp-server   
+
+requette pour update marque fcel:   
+UPDATE crm_claim set "Marque" = 1 where "Marque_moved0" like 'SIERA'    
+
