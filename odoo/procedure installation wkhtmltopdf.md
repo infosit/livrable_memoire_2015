@@ -57,4 +57,14 @@ puis installer si ne sont pas installées les dependance suivant:
 4) 	cp /usr/local/bin/wkhtmltopdf /usr/bin    
 5)	cp /usr/local/bin/wkhtmltoimage /usr/bin     
  pour tester le fonctionnement de wkhtmltopdf utiliser la commande suivante:       
-6) wkhtmltopdf www.google.com test.pdf        
+6) wkhtmltopdf www.google.com test.pdf    
+
+
+NB:
+edemarrez le service Odoo puis, connectez vous en tant qu’admin et aller à :		
+
+Configuration -> Paramètres -> Paramètres Systèmes		
+Créez un nouvel enregistrement avec les valeurs suivantes :		
+
+    Clé : webkit_path		
+    Valeur : /usr/bin/wkhtmltopdf		
