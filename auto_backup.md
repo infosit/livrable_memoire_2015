@@ -33,6 +33,7 @@ A-  configuration:
 3- creer: (il creer automatique une configuration)    
 
 B- Technical:  
+- automation  
 - action planifiée
 - Backup scheduler  
 - modifier  
