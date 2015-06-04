@@ -1,7 +1,7 @@
 
 il faut installer d'abord dependance pysftp:  
- intall d'abort pip (est un module python):    
-   
+ intall d'abort pip (est un module python):     
+ apt-get update  
  apt-get install python-pip python-dev build-essential    
  
  puis:  
