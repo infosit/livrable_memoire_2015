@@ -23,7 +23,7 @@ cd /opt/odoo/addons
 chmod -R 775 auto_backup  
 chown -R odoo:odoo auto_backup 
 
-sudo su - odoo -s /bin/bash
+ssu - odoo -s /bin/bash  
 mkdir backups
 
 service odoo-server restart  
