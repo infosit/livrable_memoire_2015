@@ -19,7 +19,7 @@ mv /opt/odoo/addons/auto_backup /opt/odoo/addons/auto_backup1
 mv /opt/odoo/addons/auto_backup1/auto_backup /opt/odoo/addons/auto_backup  
 rm -R /opt/odoo/addons/auto_backup1  (supprimer auto_backup1)
 
-cd /opt/odoo/addons 
+cd /opt/odoo/addons   
 chmod -R 775 auto_backup  
 chown -R odoo:odoo auto_backup 
 
