@@ -1,2 +1,3 @@
-sudo -u postgres psql postgres   
+sudo -u postgre0s
+psql postgres   
 \password postgres  
