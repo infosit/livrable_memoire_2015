@@ -12,4 +12,7 @@ apt-get update
 ----------------------------------------  
 ### mv /opt/odoo/odoo /opt/odoo/odoo8=> renommer odoo vers odoo8  
 ### mv /opt/odoo/odoo8 /opt => deplacer odoo8 vers /opt   
-### rm -r odoo => supprimer un repertoire    
+### rm -r odoo => supprimer un repertoire  
+
+### copie un dossier local vers un serveur distant:   
+scp -r /home/workspace/odoo8/addons/sifa root@@ip:/opt/odoo/addons
