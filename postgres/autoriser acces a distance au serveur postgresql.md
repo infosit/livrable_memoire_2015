@@ -6,7 +6,7 @@ en ajoutant la ligne suivante a la fin
 host all all 192.168.1.0/24 md5  (cas reseau local)  
 host all all 0.0.0.0/0 md5   (cas reseau distant vps)  
 
-srevice postgresql restart  
+service postgresql restart  
 apres on peut acceder au serveur via PgAdmin   
 sauvegarder une BD via PgAdmin:  
 
