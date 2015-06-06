@@ -15,4 +15,4 @@ apt-get update
 ### rm -r odoo => supprimer un repertoire  
 
 ### copie un dossier local vers un serveur distant:   
-scp -r /home/workspace/odoo8/addons/sifa root@@ip:/opt/odoo/addons
+scp -r /home/workspace/odoo8/addons/sifa root@addresipServerDistant:/opt/odoo/addons
