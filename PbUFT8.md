@@ -14,3 +14,6 @@ sudo apt-get install --reinstall language-pack-fr
 ou:
 
 sudo apt-get install --reinstall language-pack-en
+
+
+REF: http://ubuntuforums.org/showthread.php?t=1720356   
