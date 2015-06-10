@@ -6,3 +6,11 @@ nano /etc/ssh/ssh_config
 et commenter la ligne: SendEnv LANG LC_*.   
 pg_createcluster 9.3 main --start    
 /etc/init.d/postgres restart    
+
+
+par fois il faut faire:   
+sudo apt-get install --reinstall language-pack-fr   
+
+ou:
+
+sudo apt-get install --reinstall language-pack-en
