@@ -12,4 +12,7 @@ SELECT exec('ALTER TABLE ' || quote_ident(s.nspname) || '.' ||
           FROM pg_class c JOIN pg_namespace n ON (c.relnamespace = n.oid) 
          WHERE nspname NOT LIKE E'pg\\_%' AND 
                nspname <> 'information_schema' AND 
-               relkind IN ('r','S','v') ORDER BY relkind = 'S') s;
+               relkind IN ('r','S','v') ORDER BY relkind = 'S') s;    
+
+NB:   
+executer requite par requit   
