@@ -1,0 +1,7 @@
+
+ REF:http://doc.ubuntu-fr.org/openvas   
+ 
+ 
+ -get install openvas-server   
+ sudo openvas-adduser   
+ 
