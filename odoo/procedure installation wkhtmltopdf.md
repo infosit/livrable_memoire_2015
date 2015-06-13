@@ -34,8 +34,8 @@ apt-get install xfonts-base xfonts-75dpi xfonts-utils libfontenc1 libxfont1 xfon
  pour tester le fonctionnement de wkhtmltopdf utiliser la commande suivante:       
 5) wkhtmltopdf www.google.com test.pdf     
 	
-	## II- installation Wkhtmltopdf sous ubuntu :     
-	### - 1/ sous ubuntu 14.04 64 bits:    
+### II- installation Wkhtmltopdf sous ubuntu :     
+## - 1/ sous ubuntu 14.04 64 bits:    
 	 ####	Tapez les commandes suivantes:   
 0)  cd /opt  	 
 1)  wget http://downloads.sourceforge.net/project/wkhtmltopdf/0.12.2.1/wkhtmltox-0.12.2.1_linux-trusty-amd64.deb  
