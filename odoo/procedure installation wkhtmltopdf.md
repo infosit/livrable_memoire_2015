@@ -27,9 +27,9 @@ ou manuelement: https://launchpad.net/ubuntu/trusty/i386/xfonts-75dpi/1:1.0.3
 1) wget http://downloads.sourceforge.net/project/wkhtmltopdf/0.12.2.1/wkhtmltox-0.12.2.1_linux-wheezy-i386.deb    
 2)  dpkg -i wkhtmltox-0.12.2.1_linux-wheezy-i386.deb  
 puis installer si ne sont pas installées les dependance suivant:		
-apt-get install xfonts-base xfonts-75dpi xfonts-utils libfontenc1 libxfont1 xfonts-encodings
+apt-get install xfonts-base xfonts-75dpi xfonts-utils libfontenc1 libxfont1 xfonts-encodings		
 
-3) 	cp /usr/local/bin/wkhtmltopdf /usr/bin    
+3) 	cp /usr/local/bin/wkhtmltopdf /usr/bi		    
 4)	cp /usr/local/bin/wkhtmltoimage /usr/bin     
  pour tester le fonctionnement de wkhtmltopdf utiliser la commande suivante:       
 5) wkhtmltopdf www.google.com test.pdf     
