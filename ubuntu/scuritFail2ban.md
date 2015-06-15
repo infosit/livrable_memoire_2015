@@ -31,3 +31,6 @@ Status
 
 Pour voir quelles adresses IP sont bannies, il faut lancer la commande suivante:    
 root@serveur:~# iptables -L -n    
+
+# our supprimer une adresse IP de la liste noire (par exemple, si on a bloqué une machine qui ne devait pas être bloquée), il faut utiliser la commande suivante:   
+root@serveur:~# iptables -D fail2ban-ssh -s ADRESSE_IP_BLOQUÉE -j REJECT  
