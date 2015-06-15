@@ -28,5 +28,23 @@ root@serveur:~# visudo
 Ajoutez la ligne suivante à la fin du fichier:      
 Defaults rootpw,timestamp_timeout=0     
 
+# 3- modifier la configuration du serveur SSH:      
+- Nous allons entre autres changer le port d’écoute de SSH qui est par défaut le port 22      
+- nous allez devoir choisir un numéro de port qui soit supérieur à 1024 et qui ne correspond pas à un service exécuté par le serveur      
+- Nous allons également interdire les connexions au compte root     
+
+root@serveur:~# nano /etc/ssh/sshd_config       
+Puis, modifiez le fichier pour avoir les lignes suivantes en remplaçant le numéro de port:      
+Port 1966        
+PermitRootLogin no      
+
+redémarrer le serveur SSH       
+root@serveur:~# sudo service ssh restart
+
+À présent, pour vous connecter au serveur, vous allez devoir préciser le port que le client SSH devra utiliser pour communiquer avec le serveur.        
+utilisateur@poste-travail:~$ ssh NOM_UTILISATEUR@IP_DU_SERVEUR -p NUMERO_PORT       
+utilisateur@poste-travail:~$ ssh user1@IPserver -p 1966   
+
+
 
 
