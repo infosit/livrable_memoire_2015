@@ -8,6 +8,8 @@ root@serveur:~# passwd user1
 Entrez le nouveau mot de passe UNIX :   
 Retapez le nouveau mot de passe UNIX :    
 passwd : le mot de passe a été mis à jour avec succès   
+(l'utilisateur creé peux maintenant se connecter en ssh,
+mais se compte ne lui permet pas d'acceder avec le pannel du VPS)        
     
 root@serveur:~# su - user1    
 user1@ubuntu:~$pwd  (repertoire courant)        
@@ -45,8 +47,9 @@ root@serveur:~# sudo service ssh restart
 utilisateur@poste-travail:~$ ssh NOM_UTILISATEUR@IP_DU_SERVEUR -p NUMERO_PORT       
 utilisateur@poste-travail:~$ ssh user1@IPserver -p 1966   
 $ sudo -i       
-[sudo] password for root:       
+     
 # 4-modifier mot de passe root      
+$ sudo -i  
 [sudo] password for root:passwd
 
 
