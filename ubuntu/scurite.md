@@ -44,6 +44,10 @@ root@serveur:~# sudo service ssh restart
 À présent, pour vous connecter au serveur, vous allez devoir préciser le port que le client SSH devra utiliser pour communiquer avec le serveur.        
 utilisateur@poste-travail:~$ ssh NOM_UTILISATEUR@IP_DU_SERVEUR -p NUMERO_PORT       
 utilisateur@poste-travail:~$ ssh user1@IPserver -p 1966   
+$ sudo -i       
+[sudo] password for root:       
+# 4-modifier mot de passe root      
+[sudo] password for root:passwd
 
 
 
