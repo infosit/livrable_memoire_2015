@@ -1,3 +1,6 @@
+wkhtmlto pdf est supprimer de sourceforget.net il faut utiliser les liens de http://wkhtmltopdf.org/downloads.html
+
+
 - attention :		
 probleme de mise en page infosit.ma et 2b-groupe :
 
