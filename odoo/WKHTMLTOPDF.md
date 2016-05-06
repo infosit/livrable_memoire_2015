@@ -24,7 +24,7 @@ cd /usr/bin/
 sudo chown root:root wkhtmlto*  
 
 Faire un teste:  
-sudo su - openerp -s /bin/bash  
+sudo su - odoo -s /bin/bash  
 wkhtmltopdf  http://www.y-note.cm y-note.pdf
 
 NON TERMINER:		
